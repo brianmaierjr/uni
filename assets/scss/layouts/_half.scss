@@ -38,6 +38,8 @@
     &.half--left {
       @include min(md) {
         order: 1;
+        flex-basis: 0.75;
+        max-width: rem(600);
       }
     }
   }
