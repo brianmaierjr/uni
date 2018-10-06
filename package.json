@@ -1,0 +1,23 @@
+{
+  "name": "uni",
+  "version": "0.0.0",
+  "description": "A one page Jekyll theme.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Maier Jr.",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^1.3.7",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "1.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianmaierjr/uni.git"
+  },
+  "keywords": ["jekyll", "gulp", "sass", "browsersync"]
+}

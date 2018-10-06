@@ -1,0 +1,52 @@
+.half {
+  main {
+    display: flex;
+    flex-direction: column;
+
+    @include min(md) {
+      flex-direction: row;
+      height: 100vh;
+      width: 100vw;
+      align-items: stretch;
+    }
+
+    .pageTitle {
+      color: $primary-color;
+      font-weight: 100;
+    }
+
+    > div {
+      padding: 20px;
+
+      @include min(md) {
+        flex: 1;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        padding: $padding;
+      }
+    }
+  }
+
+  .socialLinks__link {
+    @include button--outline();
+  }
+
+  &__content {
+    order: 2;
+
+    &.half--left {
+      @include min(md) {
+        order: 1;
+      }
+    }
+  }
+
+  &__image {
+    min-height: 50vh;
+    order: 1;
+    background-image: url(/assets/img/half-woman.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,73 @@
+/// Pixels to Rems Function
+/// Return a rem value of the exact amount of pixels that you need
+/// @example
+///     padding: rem(20);
+@function rem($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}rem;
+}
+
+@function color($color) {
+	@if map-has-key($colors, $color) {
+		@return map-get($colors, $color);
+	} @else {
+		@warn 'Color does not exist! If a browser default exists it will use that.';
+		@return $color;
+	}
+}
+
+@function z($key) {
+	@if map-has-key($z, $key) {
+		@return map-get($z, $key);
+	} @else {
+		@warn 'Key does not exist! Please add it in _variables';
+		@return $key;
+	}
+}
+
+// Responsive Mixin Mobile First
+// @include min(md);
+@mixin min($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		$value: map-get($breakpoints, $breakpoint);
+
+		@media screen and (min-width: $value) {
+			@content;
+		}
+	}
+}
+
+// Responsive Mixin
+// @include max((md);
+@mixin max($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		$value: map-get($breakpoints, $breakpoint);
+
+		@media screen and (max-width: $value) {
+			@content;
+		}
+	}
+}
+
+// Standard section spacing
+@mixin sectionspace($pixels-sm: 30, $pixels-lg: 50) {
+	padding-top: rem($pixels-sm);
+	padding-bottom: rem($pixels-sm);
+
+	@include min(md) {
+		padding-top: rem($pixels-lg);
+		padding-bottom: rem($pixels-lg);
+	}
+}
+
+// Responsive background images
+@mixin responsivebackground($sm: $hero-sm, $md: $hero-md, $lg: $hero-lg) {
+	@media screen and (max-width: 800px) {
+		background-image: url("../images/"+$sm);
+	}
+	@media screen and (min-width: 801px) and (max-width: 1200px) {
+		background-image: url("../images/"+$md);
+	}
+	@media screen and (min-width: 1200px) {
+		background-image: url("../images/"+$lg);
+	}
+}

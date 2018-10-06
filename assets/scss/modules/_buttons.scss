@@ -1,0 +1,60 @@
+/***************
+BUTTON DEFAULTS
+***************/
+
+@mixin button() {
+  background-color: $primary-color;
+  display: inline-block;
+  position: relative;
+  font-family: $sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: normal;
+  padding: 0.5em 1.5em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  transition: background-color 0.14s ease-in-out;
+
+  // hovering on the btn
+  &:hover,
+  &:focus {
+    color: white;
+    text-decoration: none;
+    background-color: darken($primary-color, 10%);
+  } // end hover
+} // end .button
+
+// Default button class
+.button {
+  @include button();
+}
+
+@mixin button--outline() {
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  font-family: $sans-serif;
+  text-decoration: none;
+  color: $primary-color;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  font-weight: 100;
+  padding: 0.5em 1.5em;
+  border: 1px solid $primary-color;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  transition: background-color 0.14s ease-in-out;
+
+  // hovering on the btn
+  &:hover,
+  &:focus {
+    color: white;
+    text-decoration: none;
+    background-color: $primary-color;
+  } // end hover
+} // end .button

@@ -1,0 +1,27 @@
+# Your Name or Company
+title: Uni Unicycle
+
+# A brief blurb about yourself
+content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
+
+url: http://brianmaierjr.github.com/frameset
+markdown: kramdown
+
+# Half layout options
+half_side: left
+half_image: woman-half.jpg
+
+# Add your social links
+social:
+  - platform: github
+    url: brianmaierjr
+  - platform: facebook
+    url: brianmaierjr
+  - platform: twitter
+    url: brianmaierjr
+  - platform: linkedin
+    url: brianmaierjr
+
+
+# Google Analytics for tracking
+google_analytics: "UA-58263416-1"

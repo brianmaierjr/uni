@@ -1,0 +1,50 @@
+/***************
+GLOBAL STYLES
+***************/
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $serif;
+  line-height: 1.75;
+  font-size: 112.5%; // 18px base font size
+  color: black;
+  overflow-x: hidden;
+  margin: 0;
+
+  p,
+  ul {
+    margin: 0 0 2rem;
+  }
+}
+
+// Text Selection Styling
+::-moz-selection {
+  background: $primary-color;
+  color: white;
+}
+
+::selection {
+  background: $primary-color;
+  color: white;
+}
+
+/***************
+MEDIA
+***************/
+
+// Media Styling
+img,
+video,
+audio,
+iframe,
+object {
+  max-width: 100%;
+}
