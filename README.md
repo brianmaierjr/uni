@@ -2,9 +2,11 @@
 
 ## Features
 
-* Minimal, Type Focused Design
+* Super minimal
+* Fast and responsive
 * Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
 * A Better Type Scale for all devices
+* 4 different layouts and options for each
 
 ## Setup
 
@@ -32,6 +34,8 @@ The main settings can be found inside the `_config.yml` file:
 * **half_side:** [left or right] which side of the page your content is on
 * **half_image:** filename for your image (ie. example-image.jpg) this should be placed in `assets/img/` folder
 
-## License
+### Full layout
 
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+### Card layout
+
+### Video Layout
