@@ -4,7 +4,8 @@ title: Uni Unicycle
 # A brief blurb about yourself
 content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
 
-url: http://brianmaierjr.github.com/frameset
+url: http://brianmaierjr.github.com/uni
+baseurl: "/uni"
 markdown: kramdown
 
 # Half layout options
