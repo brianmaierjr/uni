@@ -17,7 +17,7 @@
 7. Run Jekyll and watch files by running `gulp`
 8. Customize and watch the magic happen!
 
-## Site Settings
+## Site/Layout Settings
 
 The main settings can be found inside the `_config.yml` file:
 
@@ -26,6 +26,11 @@ The main settings can be found inside the `_config.yml` file:
 * **url:** your url
 * **social** diverse social media usernames (optional)
 * **google_analytics** Google Analytics key (optional)
+
+### Half Layout
+
+* **half_side:** [left or right] which side of the page your content is on
+* **half_image:** filename for your image (ie. example-image.jpg) this should be placed in `assets/img/` folder
 
 ## License
 
