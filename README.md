@@ -17,7 +17,17 @@
 5. Run `bundle install`
 6. Install gulp dependencies by running `npm install`
 7. Run Jekyll and watch files by running `gulp`
-8. Customize and watch the magic happen!
+
+## Customize
+
+1. General settings
+2. Add Content
+3. Pick a layout
+4. Customize layout
+5. Add image
+6. Other Settings
+7. Change fonts
+8. Add favicon
 
 ## Site/Layout Settings
 

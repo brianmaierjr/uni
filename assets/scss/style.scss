@@ -9,7 +9,6 @@
 @import "modules/buttons";
 @import "modules/forms";
 @import "modules/tables";
-@import "modules/syntax";
 @import "modules/links";
 @import "modules/lists";
 
@@ -19,5 +18,7 @@
 
 // Import Layouts
 @import "layouts/half";
+@import "layouts/full";
+@import "layouts/card";
 
 // Mobile up base styles

@@ -12,12 +12,17 @@ html {
 }
 
 body {
-  font-family: $serif;
+  font-family: $sans-serif;
+  font-weight: 300;
   line-height: 1.75;
-  font-size: 112.5%; // 18px base font size
+  font-size: 100%; // 18px base font size
   color: black;
   overflow-x: hidden;
   margin: 0;
+
+  @include min(md) {
+    font-size: 112.5%;
+  }
 
   p,
   ul {
