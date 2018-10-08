@@ -8,7 +8,7 @@ url: http://brianmaierjr.github.com/uni
 markdown: kramdown
 
 # Half layout options
-half_side: left
+half_side: right
 half_image: woman-half.jpg
 
 # Full layout options
