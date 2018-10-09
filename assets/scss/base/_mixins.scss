@@ -42,12 +42,12 @@
 // Responsive background images
 @mixin responsivebackground($sm, $md, $lg) {
   @media screen and (max-width: 800px) {
-    background-image: url("/assets/img/"+$sm);
+    background-image: url("/uni/assets/img/"+$sm);
   }
   @media screen and (min-width: 801px) and (max-width: 1200px) {
-    background-image: url("/assets/img/"+$md);
+    background-image: url("/uni/assets/img/"+$md);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url("/assets/img/"+$lg);
+    background-image: url("/uni/assets/img/"+$lg);
   }
 }
