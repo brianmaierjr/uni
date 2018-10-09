@@ -1,23 +1,11 @@
 # Your Name or Company
 title: Uni Kravitz
 
+# Description of your website. This is used for social sharing.
+description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+
 # A brief blurb about yourself
 content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
-
-url: http://brianmaierjr.github.com/uni
-markdown: kramdown
-
-# Half layout options
-half_side: right
-half_image: woman-half.jpg
-
-# Full layout options
-full_image: man-full.jpg
-full_text_color: light # dark or light
-full_text_position: right # left, right or center
-
-# Card layout options
-card_image: card.jpg
 
 # Add your social links
 social:
@@ -30,6 +18,17 @@ social:
   - platform: linkedin
     url: brianmaierjr
 
+# General settings
+url: http://brianmaierjr.github.com/uni
+baseurl: "/uni"
+markdown: kramdown
+sharing_image: share.jpg
+google_analytics: "UA-58263416-1" # google analytics tracking
 
-# Google Analytics for tracking
-google_analytics: "UA-58263416-1"
+#### LAYOUT OPTIONS #####
+
+# Half layout
+half_side: right
+
+# Full layout
+full_text_position: right # left, right or center

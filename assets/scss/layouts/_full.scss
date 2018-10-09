@@ -16,7 +16,7 @@
   &__image {
     background-size: cover;
     background-position: center;
-    background-image: url(/assets/img/man-full.jpg);
+    @include responsivebackground("full-sm.jpg", "full-md.jpg", "full-lg.jpg");
     min-height: 50vh;
 
     @include min(md) {

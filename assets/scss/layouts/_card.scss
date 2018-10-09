@@ -5,7 +5,7 @@
   background-color: #213334;
   background-size: cover;
   background-position: center;
-  background-image: url(/assets/img/card.jpg);
+  @include responsivebackground("card-sm.jpg", "card-md.jpg", "card-lg.jpg");
 
   .pageTitle {
     color: $primary-color;
