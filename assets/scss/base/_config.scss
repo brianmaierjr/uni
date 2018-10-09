@@ -1,23 +1,20 @@
 /***************
 COLOR VARIABLES
 ***************/
-$primary-color: #6a7738;
+$primary-color: purple;
 $link-color: $primary-color;
-$background-color: lightgray;
 
 /***************
 CONSISTENT SETTINGS
 ***************/
-$br: 5px; // Border-radius
-$btn-br: 5px; // Button border-radius
 $padding: 50px; // Padding and margins
 $line-height: 44px; // Consistent height for buttons, inputs etc.
 
 /***************
 TYPE SETTINGS
 ***************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i");
 $sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
-$serif: "PT Serif", Georgia, Times, serif;
 
 /***************
 SIZES
@@ -28,16 +25,4 @@ $browser-context: 16; // Default
 /***************
 RESPONSIVE BREAKPOINTS
 ***************/
-$breakpoints: (
-  sm: 481px,
-  md: 768px,
-  lg: 1040px,
-  wrap: 1440px
-);
-
-/***************
-IMAGES
-***************/
-$hero-sm: "hero-background-sm.jpg"; // width should be 800px
-$hero-md: "hero-background-md.jpg"; // width should be 1200px
-$hero-lg: "hero-background-lg.jpg"; // width should be > 1200px
+$breakpoints: (md: 768px);

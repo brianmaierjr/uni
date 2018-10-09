@@ -1,0 +1,64 @@
+.full {
+  min-height: 100vh;
+  color: white;
+  font-family: $sans-serif;
+  font-weight: 300;
+  background-color: #213334;
+
+  .pageTitle {
+    // font-weight: 300;
+  }
+
+  .socialLinks__link {
+    @include button--outline(white, black);
+  }
+
+  &__image {
+    background-size: cover;
+    background-position: center;
+    @include responsivebackground("full-sm.jpg", "full-md.jpg", "full-lg.jpg");
+    min-height: 50vh;
+
+    @include min(md) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+  main {
+    @include min(md) {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    &.content--left {
+      justify-content: flex-start;
+    }
+
+    &.content--center {
+      justify-content: center;
+    }
+  }
+
+  &__content {
+    padding: 20px;
+
+    @include min(md) {
+      max-width: 50vw;
+      z-index: 10;
+      position: relative;
+    }
+  }
+
+  &__image {
+    min-height: 50vh;
+    order: 1;
+  }
+}

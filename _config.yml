@@ -1,5 +1,8 @@
 # Your Name or Company
-title: Uni Unicycle
+title: Uni Kravitz
+
+# Description of your website. This is used for social sharing.
+description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
 # A brief blurb about yourself
 content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
@@ -15,14 +18,25 @@ half_image: woman-half.jpg
 # Add your social links
 social:
   - platform: github
-    url: brianmaierjr
+    url: https://github.com/brianmaierjr
   - platform: facebook
-    url: brianmaierjr
+    url: https://facebook.com/brianmaierjr
   - platform: twitter
-    url: brianmaierjr
+    url: https://twitter.com/brianmaierjr
   - platform: linkedin
     url: brianmaierjr
 
+# General settings
+url: http://brianmaierjr.github.com/uni
+baseurl: "/uni"
+markdown: kramdown
+sharing_image: share.jpg
+google_analytics: "UA-58263416-1" # google analytics tracking
 
-# Google Analytics for tracking
-google_analytics: "UA-58263416-1"
+#### LAYOUT OPTIONS #####
+
+# Half layout
+half_side: right
+
+# Full layout
+full_text_position: right # left, right or center

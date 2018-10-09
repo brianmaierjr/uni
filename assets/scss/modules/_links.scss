@@ -1,7 +1,7 @@
 a {
-	color: $link-color;
+  color: $link-color;
 
-	&:hover {
-		color: darken($link-color, 15%);
-	}
+  &:hover {
+    color: darken($link-color, 15%);
+  }
 }

@@ -1,0 +1,61 @@
+.card {
+  min-height: 100vh;
+  font-family: $sans-serif;
+  font-weight: 300;
+  background-color: #213334;
+  background-size: cover;
+  background-position: center;
+  @include responsivebackground("card-sm.jpg", "card-md.jpg", "card-lg.jpg");
+
+  .pageTitle {
+    color: $primary-color;
+    position: relative;
+    padding-top: rem(20);
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: rem(100);
+      height: rem(7);
+      background-color: $primary-color;
+      display: block;
+    }
+  }
+
+  .socialLinks__link {
+    @include button--outline();
+    font-family: $sans-serif;
+  }
+
+  main {
+    @include max(md) {
+      margin: 10%;
+    }
+
+    @include min(md) {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__content {
+    padding: 40px;
+    background-color: white;
+    border-radius: rem(10);
+
+    @include min(md) {
+      max-width: rem(600);
+      z-index: 10;
+      position: relative;
+    }
+  }
+
+  &__image {
+    min-height: 50vh;
+    order: 1;
+  }
+}
