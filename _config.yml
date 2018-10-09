@@ -23,7 +23,7 @@ social:
     url: brianmaierjr
 
 # General settings
-url: http://brianmaierjr.github.com/uni
+url: http://brianmaierjr.github.com/
 baseurl: "/uni"
 markdown: kramdown
 sharing_image: share.jpg
