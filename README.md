@@ -1,10 +1,10 @@
 ![Uni Jekyll Theme](/assets/img/share.jpg)
 
-# Uni - The one page Jekyll theme
+# Uni – A one-page Jekyll theme
 
 ## Features
 
-* Minimal, One Page Design
+* Minimal, One-Page Design
 * Fast and responsive
 * Flexible
 * Built using new technologies including
@@ -74,7 +74,7 @@ For example, the layout below is using the `full` layout. The other options are 
 ```
 ---
 layout: full
-title: Uni - A simple, one page Jekyll theme
+title: Uni – A one-page Jekyll theme
 ---
 ```
 
