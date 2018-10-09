@@ -1,3 +1,5 @@
+![Uni Jekyll Theme](/uni-logo.svg)
+
 # Uni - The one page Jekyll theme
 
 ## Features
