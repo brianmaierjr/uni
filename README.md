@@ -1,4 +1,3 @@
-![Uni Jekyll Theme](/uni-logo.svg)
 ![Uni Jekyll Theme](/assets/img/share.jpg)
 
 # Uni - The one page Jekyll theme
