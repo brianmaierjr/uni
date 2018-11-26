@@ -2,6 +2,8 @@
 
 # Uni – A one-page Jekyll theme
 
+[View Half Demo](http://brianmaierjr.com/uni/) | [View Full Demo](http://brianmaierjr.com/uni/full.html) | [View Card Demo](http://brianmaierjr.com/uni/card.html)
+
 ## Features
 
 * Minimal, One-Page Design
@@ -49,13 +51,25 @@ The main settings can be found inside the `_config.yml` file:
   * **url**: destination for the link
 * **google_analytics** Google Analytics key (optional)
 
+---
+
+![Uni Jekyll Theme](layout--half.jpg)
+
 ### Half Layout
 
 * **half_side:** which side of the page your content is on [left or right]
 
+---
+
+![Uni Jekyll Theme](layout--full.jpg)
+
 ### Full layout
 
 * **full_text_position:** where on the page the text will appear [left, center, or right]
+
+---
+
+![Uni Jekyll Theme](layout--card.jpg)
 
 ### Card layout
 
@@ -110,6 +124,6 @@ To replace the image replace the image names in the `responsivebackground` mixin
 
 When uploading image please keep file size in mind. For optimizing images we recommend using [TinyPNG](https://tinypng.com) and [TinyJPG](https://tinyjpg.com)
 
-### Add Favicon
+### Favicon
 
 To add your own favicon, replace the image found at `assets/img/favicon.png`.
