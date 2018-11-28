@@ -9,7 +9,7 @@
 * Minimal, One-Page Design
 * Fast and responsive
 * Flexible
-* Built using new technologies including
+* Built using these tools:
   * GULP
   * SASS
   * BROWSERSYNC
@@ -55,7 +55,7 @@ The main settings can be found inside the `_config.yml` file:
 
 ![Uni Jekyll Theme](layout--half.jpg)
 
-### Half Layout
+## Half Layout
 
 * **half_side:** which side of the page your content is on [left or right]
 
@@ -63,7 +63,7 @@ The main settings can be found inside the `_config.yml` file:
 
 ![Uni Jekyll Theme](layout--full.jpg)
 
-### Full layout
+## Full layout
 
 * **full_text_position:** where on the page the text will appear [left, center, or right]
 
@@ -71,7 +71,7 @@ The main settings can be found inside the `_config.yml` file:
 
 ![Uni Jekyll Theme](layout--card.jpg)
 
-### Card layout
+## Card layout
 
 The background image and other style customizations can be changed in `assets/scss/layouts/_card.scss`
 
@@ -83,7 +83,7 @@ The background image and other style customizations can be changed in `assets/sc
 
 By default, Uni is set to use the `half` layout. To change the `layout` change the front matter in `index.html`
 
-For example, the layout below is using the `full` layout. The other options are `half` and `card`
+For example, the layout below is using the `full` layout. The other options available are `half` and `card`.
 
 ```
 ---
@@ -94,13 +94,13 @@ title: Uni – A one-page Jekyll theme
 
 ### Styling
 
-While running `bundle exec gulp` modify any of the files in the `assets/scss/` folder and watch the changes happen.
+While running `bundle exec gulp` modify any of the files in the `assets/scss/` folder and your browser will update automatically. No reload required!
 
 The layouts all have their own stylesheets found in `assets/scss/layouts/`. This is where images for each of the three layouts can be found. In addition, this is where you can change text color, layout, etc.
 
 #### Primary color
 
-The one color this theme makes use of is the `$primary-color`. It can be changed in the `assets/scss/base/_config.scss` file. This color is used for headings, accents, and buttons.
+The primary color is used for headings, accents, and buttons. It can be changed by modifying the `assets/scss/base/_config.scss` file.
 
 ### Add Content
 
@@ -110,19 +110,20 @@ Add content in `config.yml` or alter `index.html` and change `{{ content }}` to 
 
 As stated above, the images are set in the respective stylesheets found in `assets/scss/layouts/`.
 
-We are using responsive images that require three different images. This allows the browser to serve the appropriate image based on the screen size. Recommended image widths are:
+We are using responsive images that require three different image sizes. This allows the browser to serve the appropriate image based on the screen size. Recommended image widths are:
 
 * #### Small: 768px wide
 * #### Medium: 1200px wide
 * #### Large: 1600px wide
 
-To replace the image replace the image names in the `responsivebackground` mixin as shown below:
+To replace the images, modify the names in the `responsivebackground` mixin as shown below.
+*Make sure to include the file extension!*
 
 ```
 @include responsivebackground("half-sm.jpg", "half-md.jpg", "half-lg.jpg");
 ```
 
-When uploading image please keep file size in mind. For optimizing images we recommend using [TinyPNG](https://tinypng.com) and [TinyJPG](https://tinyjpg.com)
+When uploading images please keep file size in mind. For optimizing, we recommend using [TinyPNG](https://tinypng.com) and [TinyJPG](https://tinyjpg.com).
 
 ### Favicon
 
