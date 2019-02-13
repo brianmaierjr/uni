@@ -1,0 +1,33 @@
+.themeSwitcher {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  text-align: center;
+  padding-top: rem(15);
+  padding-bottom: rem(10);
+  color: white;
+  z-index: 9999;
+  font-weight: bold;
+  font-size: rem(14);
+
+  li {
+    display: inline;
+    margin: 0 rem(5);
+  }
+
+  a {
+    color: white;
+    font-weight: normal;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: rem(5);
+    border-radius: rem(4);
+
+    &.current {
+      background-color: white;
+      color: #111;
+    }
+  }
+}
