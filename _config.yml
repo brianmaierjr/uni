@@ -28,7 +28,7 @@ baseurl: "/uni"
 markdown: kramdown
 sharing_image: share.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
-permalink: pretty 
+permalink: pretty
 
 #### LAYOUT OPTIONS #####
 

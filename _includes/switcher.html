@@ -2,7 +2,7 @@
 
 <ul class="themeSwitcher">
   <li>Layouts:</li>
-  <li><a href="/index.html" {% if page.id == 'home' %}class='current'{% endif %}>Half Width</a></li>
-  <li><a href="/full" {% if current[1] == 'full' %}class='current'{% endif %}>Full Width</a></li>
-  <li><a href="/card" {% if current[1] == 'card' %}class='current'{% endif %}>Card</a></li>
+  <li><a href="{{ base.url }}/index.html" {% if page.id == 'home' %}class='current'{% endif %}>Half Width</a></li>
+  <li><a href="{{ base.url }}/full" {% if current[1] == 'full' %}class='current'{% endif %}>Full Width</a></li>
+  <li><a href="{{ base.url }}/card" {% if current[1] == 'card' %}class='current'{% endif %}>Card</a></li>
 </ul>
