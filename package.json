@@ -19,5 +19,10 @@
     "type": "git",
     "url": "https://github.com/brianmaierjr/uni.git"
   },
-  "keywords": ["jekyll", "gulp", "sass", "browsersync"]
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ]
 }
