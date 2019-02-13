@@ -23,8 +23,8 @@ social:
     url: brianmaierjr
 
 # General settings
-# url: http://brianmaierjr.com/uni
-# baseurl: "/uni"
+url: http://brianmaierjr.com/uni
+baseurl: "/uni"
 markdown: kramdown
 sharing_image: share.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
