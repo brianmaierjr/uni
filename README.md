@@ -2,7 +2,7 @@
 
 # Uni – A one-page Jekyll theme
 
-[View Half Demo](http://brianmaierjr.com/uni/) | [View Full Demo](http://brianmaierjr.com/uni/full.html) | [View Card Demo](http://brianmaierjr.com/uni/card.html)
+[View Half Demo](http://brianmaierjr.com/uni/) | [View Full Demo](http://brianmaierjr.com/uni/full) | [View Card Demo](http://brianmaierjr.com/uni/card)
 
 ## Features
 
