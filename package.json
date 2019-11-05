@@ -9,15 +9,20 @@
   "author": "Brian Maier Jr.",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^1.3.7",
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "1.0.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "7.0.1",
     "gulp-cssnano": "^2.1.3",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^4.0.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/brianmaierjr/uni.git"
   },
-  "keywords": ["jekyll", "gulp", "sass", "browsersync"]
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ]
 }
